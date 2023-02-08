@@ -55,3 +55,13 @@ lazy var myTextField: UITextField = {
     field.addTarget(self, action: #selector(<#@objc method#>), for: .editingChanged)
     return field
 }()
+
+// $image
+let myImageView: UIImageView = {
+    let image = UIImageView()
+    image.contentMode = .scaleAspectFill
+    image.clipsToBounds = true
+    image.layer.cornerRadius = 8
+    image.image = UIImage(systemName: "star.fill")
+    return image
+}()
