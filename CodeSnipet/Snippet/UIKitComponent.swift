@@ -7,7 +7,7 @@
 
 import UIKit
 
-// $label
+// $uiLabel
 let myLabel: UILabel = {
     let label = UILabel()
     label.text = "Label"
@@ -20,7 +20,7 @@ let myLabel: UILabel = {
     return label
 }()
 
-// $button
+// $uiButton
 lazy var myButton: UIButton = {
     let button = UIButton()
     button.setTitle("Button", for: .normal)
@@ -32,7 +32,7 @@ lazy var myButton: UIButton = {
     return button
 }()
 
-// $stack
+// $uiStack
 lazy var myStackView: UIStackView = {
     let stack = UIStackView(arrangedSubviews: <#T##[UIView]#>)
     stack.axis = .vertical
@@ -42,7 +42,7 @@ lazy var myStackView: UIStackView = {
     return stack
 }()
 
-// $field
+// $uiField
 lazy var myTextField: UITextField = {
     let field = UITextField()
     field.placeholder = "input text"
@@ -56,7 +56,7 @@ lazy var myTextField: UITextField = {
     return field
 }()
 
-// $image
+// $uiImageView
 let myImageView: UIImageView = {
     let image = UIImageView()
     image.contentMode = .scaleAspectFill

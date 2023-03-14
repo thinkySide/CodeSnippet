@@ -7,16 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+// $uiVC
+final class ViewController: UIViewController {
     
     // MARK: - Variable
     private let myView = View()
     
     
     
-    
     // MARK: - ViewController LifeCycle
-    
     override func loadView() {
         view = myView
     }
@@ -28,12 +27,8 @@ class ViewController: UIViewController {
     
     
     
-    
     // MARK: - Method
-    
     func setupInitial() {
         // 기본 구현
     }
-    
-    
 }

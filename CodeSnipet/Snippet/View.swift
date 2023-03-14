@@ -7,10 +7,10 @@
 
 import UIKit
 
-class View: UIView {
+// $uiView
+final class View: UIView {
     
     // MARK: - Component
-    
     
     
     
@@ -18,9 +18,7 @@ class View: UIView {
     
     
     
-    
     // MARK: - Initial
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupInitial()
@@ -39,20 +37,19 @@ class View: UIView {
     }
     
     func setupAddSubView() {
-        
         // 1. addSubView(component)
+        
     }
     
     
-    // MARK: - Auto Layout
     
+    // MARK: - Auto Layout
     override func updateConstraints() {
         setupConstraints()
         super.updateConstraints()
     }
     
     func setupConstraints() {
-
         // 2. translatesAutoresizingMaskIntoConstraints = false
         
         
