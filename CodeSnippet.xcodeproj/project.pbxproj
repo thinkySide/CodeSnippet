@@ -40,7 +40,7 @@
 		07D98EB92991CFB0008FAA33 = {
 			isa = PBXGroup;
 			children = (
-				07D98EC42991CFB0008FAA33 /* CodeSnipet */,
+				07D98EC42991CFB0008FAA33 /* CodeSnippet */,
 				07D98EC32991CFB0008FAA33 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07D98EC42991CFB0008FAA33 /* CodeSnipet */ = {
+		07D98EC42991CFB0008FAA33 /* CodeSnippet */ = {
 			isa = PBXGroup;
 			children = (
 				07D98EC52991CFB0008FAA33 /* AppDelegate.swift */,
@@ -62,7 +62,6 @@
 				07D98ED32991CFB1008FAA33 /* Info.plist */,
 				07D98ED92991D184008FAA33 /* Snippet */,
 			);
-			name = CodeSnipet;
 			path = CodeSnippet;
 			sourceTree = "<group>";
 		};
