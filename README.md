@@ -8,10 +8,10 @@ Swift에서 자주 사용하는 코드를 위한 커스텀 Snippet 모음입니�
 ## Snippets List
 
 ### UIKit
-- `$uiVC` - [UIViewController](CodeSnipet/Snippet/ViewController.swift)
-- `$uiView` - [UIView](CodeSnipet/Snippet/View.swift)
-- `$uiLabel` - [UILabel](CodeSnipet/Snippet/UIKitComponent.swift)
-- `$$uiButton` - [UIButton](CodeSnipet/Snippet/UIKitComponent.swift)
-- `$uiStack` - [UIStackView](CodeSnipet/Snippet/UIKitComponent.swift)
-- `$uiField` - [UITextField](CodeSnipet/Snippet/UIKitComponent.swift)
-- `$uiImageView` - [UIViewController](CodeSnipet/Snippet/UIKitComponent.swift)
+- `$uiVC` - [UIViewController](CodeSnippet/Snippet/ViewController.swift)
+- `$uiView` - [UIView](CodeSnippet/Snippet/View.swift)
+- `$uiLabel` - [UILabel](CodeSnippet/Snippet/UIKitComponent.swift)
+- `$$uiButton` - [UIButton](CodeSnippet/Snippet/UIKitComponent.swift)
+- `$uiStack` - [UIStackView](CodeSnippet/Snippet/UIKitComponent.swift)
+- `$uiField` - [UITextField](CodeSnippet/Snippet/UIKitComponent.swift)
+- `$uiImageView` - [UIViewController](CodeSnippet/Snippet/UIKitComponent.swift)
