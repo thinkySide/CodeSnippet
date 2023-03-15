@@ -23,6 +23,7 @@ final class View: UIView {
         super.init(frame: frame)
         setupInitial()
         setupAddSubView()
+        setupConstraints()
     }
     
     required init?(coder: NSCoder) {
@@ -40,18 +41,11 @@ final class View: UIView {
         // 1. addSubView(component)
         
     }
-    
-    
-    
-    // MARK: - Auto Layout
-    override func updateConstraints() {
-        setupConstraints()
-        super.updateConstraints()
-    }
-    
+
     func setupConstraints() {
         // 2. translatesAutoresizingMaskIntoConstraints = false
-        
+        [<#component#>]
+            .forEach { $0.translatesAutoresizingMaskIntoConstraints = false }
         
         // 3. NSLayoutConstraint.activate
         NSLayoutConstraint.activate([
