@@ -15,3 +15,4 @@ Swift에서 자주 사용하는 코드를 위한 커스텀 Snippet 모음입니�
 - `$uiStack` - [UIStackView](CodeSnippet/Snippet/UIKitComponent.swift)
 - `$uiField` - [UITextField](CodeSnippet/Snippet/UIKitComponent.swift)
 - `$uiImageView` - [UIViewController](CodeSnippet/Snippet/UIKitComponent.swift)
+- `$uiLayoutView` - [UIViewController](CodeSnippet/Snippet/UIKitComponent.swift)

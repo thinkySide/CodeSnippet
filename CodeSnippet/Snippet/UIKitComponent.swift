@@ -64,4 +64,13 @@ let myImageView: UIImageView = {
     image.layer.cornerRadius = 8
     image.image = UIImage(systemName: "star.fill")
     return image
+
+// $uiLayoutView
+lazy var myLayoutView: UIView = {
+    let view = UIView()
+    view.backgroundColor = .gray
+    [<#component#>]
+        .forEach { view.addSubview($0) }
+    return view
+}()
 }()
