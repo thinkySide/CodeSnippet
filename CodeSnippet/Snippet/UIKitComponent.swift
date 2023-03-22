@@ -8,7 +8,7 @@
 import UIKit
 
 // $uiLabel
-let myLabel: UILabel = {
+private let myLabel: UILabel = {
     let label = UILabel()
     label.text = "Label"
     label.textAlignment = .center
@@ -21,7 +21,7 @@ let myLabel: UILabel = {
 }()
 
 // $uiButton
-lazy var myButton: UIButton = {
+private lazy var myButton: UIButton = {
     let button = UIButton()
     button.setTitle("Button", for: .normal)
     button.titleLabel?.font = .systemFont(ofSize: 16, weight: .bold)
@@ -33,7 +33,7 @@ lazy var myButton: UIButton = {
 }()
 
 // $uiStack
-lazy var myStackView: UIStackView = {
+private lazy var myStackView: UIStackView = {
     let stack = UIStackView(arrangedSubviews: <#T##[UIView]#>)
     stack.axis = .vertical
     stack.distribution = .fill
@@ -43,7 +43,7 @@ lazy var myStackView: UIStackView = {
 }()
 
 // $uiField
-lazy var myTextField: UITextField = {
+private lazy var myTextField: UITextField = {
     let field = UITextField()
     field.placeholder = "input text"
     field.font = .systemFont(ofSize: 16, weight: .regular)
@@ -57,16 +57,17 @@ lazy var myTextField: UITextField = {
 }()
 
 // $uiImageView
-let myImageView: UIImageView = {
+private let myImageView: UIImageView = {
     let image = UIImageView()
     image.contentMode = .scaleAspectFill
     image.clipsToBounds = true
     image.layer.cornerRadius = 8
-    image.image = UIImage(systemName: "star.fill")
+    image.image = UIImage(named: "my image name")
     return image
+}()
 
 // $uiLayoutView
-lazy var myLayoutView: UIView = {
+private lazy var myLayoutView: UIView = {
     let view = UIView()
     view.backgroundColor = .gray
     [<#component#>]
