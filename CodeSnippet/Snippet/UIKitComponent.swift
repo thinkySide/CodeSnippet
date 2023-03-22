@@ -74,4 +74,3 @@ private lazy var myLayoutView: UIView = {
         .forEach { view.addSubview($0) }
     return view
 }()
-}()
