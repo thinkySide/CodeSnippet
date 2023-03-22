@@ -11,7 +11,7 @@ Swift에서 자주 사용하는 코드를 위한 커스텀 Snippet 모음입니�
 - `$uiVC` - [UIViewController](CodeSnippet/Snippet/ViewController.swift)
 - `$uiView` - [UIView](CodeSnippet/Snippet/View.swift)
 - `$uiLabel` - [UILabel](CodeSnippet/Snippet/UIKitComponent.swift)
-- `$$uiButton` - [UIButton](CodeSnippet/Snippet/UIKitComponent.swift)
+- `$uiButton` - [UIButton](CodeSnippet/Snippet/UIKitComponent.swift)
 - `$uiStack` - [UIStackView](CodeSnippet/Snippet/UIKitComponent.swift)
 - `$uiField` - [UITextField](CodeSnippet/Snippet/UIKitComponent.swift)
 - `$uiImageView` - [UIViewController](CodeSnippet/Snippet/UIKitComponent.swift)
